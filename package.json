@@ -1,0 +1,13 @@
+{
+    "name": "docker-network",
+    "description": "simple app that uses two containers that communicate through docker network",
+    "authors": "sahar cohen",
+    "version": "1.0.0",
+    "dependencies": {
+        "express": "*",
+        "redis": "^2.8.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
